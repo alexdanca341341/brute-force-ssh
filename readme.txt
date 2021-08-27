@@ -11,6 +11,10 @@ EN (+)To scan your ip class use the command:  ./go (here you will put the ip cla
    (!) The scan speed can be set from the "random" and "go" files on the row segment (./sshscan -H ips.lst -U user -t 22 -T 700) -T 700 here we can set the speed.
    (!) The archive can scan through any port in the "random" and "go" files on segments (././pscan2 $ 1 22) number 22 ie the port that can be modified and on the segment (./sshscan -H ips.lst - U user -t 22 -T 700) 22 other port that can be modified
    
+   ! Examples of commands : 
+     ./go 5.13
+     ./r
+   
    (~)Installation commands in Termux te android:
 
 apt update
@@ -60,6 +64,10 @@ RO (+)Pentru a scana clasa voastra de ip folositi comanda:  ./go (aici veti pune
    (!)Lista de usere si parole folosite in atacul de tip brute force o gasiti in  fierul "user"
    (!)Viteza de scanare se poate seta din fisierele "random" si "go" pe segmentele (./sshscan -H ips.lst -U user -t 22 -T 700)  -T 700 aici putem seta viteza.
    (!)Arhiva poate scana prin orice port din fisierele "random" si "go" pe segmentele (././pscan2 $1 22) numarul 22 adica portul ce poate fi modificat si pe segmentul (./sshscan -H ips.lst -U user -t 22 -T 700) 22 alt port ce poate fi modificat 
+   
+   ! Exemple de comenzi :
+     ./go 5.13
+     ./r
    
    (~)Comenzi de instalare in Termux pe android:
 
