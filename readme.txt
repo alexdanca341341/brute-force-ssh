@@ -105,6 +105,6 @@ make
 
 -------------------------------------------------------------------------------------------------------------------------------
 
-START COMPILED : python 
+START COMPILED : python start-compiled.py
 &
-DELETE COMPILED : python
+DELETE COMPILED : python delete-compiled.py
