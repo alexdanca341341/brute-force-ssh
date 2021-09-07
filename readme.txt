@@ -31,7 +31,6 @@ apt install libssh
 apt install libssh2
 apt install git -y
 git clone https://github.com/alexdanca341341/brute-force-ssh.git
-unzip brute-force-ssh.zip
 cd brute-force-ssh
 rm -rf *.o
 chmod +x *
@@ -51,7 +50,6 @@ apt-get install git
      (~)Orders for compiling and installing the archive
 	 
 git clone https://github.com/alexdanca341341/brute-force-ssh.git
-unzip brute-force-ssh.zip
 cd brute-force-ssh
 rm -rf *.o
 chmod +x *
@@ -88,7 +86,6 @@ apt install libssh
 apt install libssh2
 apt install git -y
 git clone https://github.com/alexdanca341341/brute-force-ssh.git
-unzip brute-force-ssh.zip
 cd brute-force-ssh
 rm -rf *.o
 chmod +x *
@@ -110,7 +107,6 @@ apt-get install git
    (~)Comenzi de compilare si instalare a arhivei 
    
 git clone https://github.com/alexdanca341341/brute-force-ssh.git
-unzip scan.zip
 cd scan
 rm -rf *.o
 chmod +x *
