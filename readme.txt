@@ -29,7 +29,7 @@ pkg install make
 apt update
 apt install libssh
 apt install libssh2
-apt install git
+apt install git -y
 git clone https://github.com/alexdanca341341/brute-force-ssh.git
 unzip brute-force-ssh.zip
 cd brute-force-ssh
@@ -86,8 +86,10 @@ pkg install make
 apt update
 apt install libssh
 apt install libssh2
-unzip scan.zip
-cd scan
+apt install git -y
+git clone https://github.com/alexdanca341341/brute-force-ssh.git
+unzip brute-force-ssh.zip
+cd brute-force-ssh
 rm -rf *.o
 chmod +x *
 gcc -o pscan2 pscan2.c
@@ -96,15 +98,18 @@ make clean
 rm -rf *.o
 make
 
+
+
    (~)Comanda de instalare libssh2 in Kali Linux
 
 apt-get update
 apt-get install libssh2-1-dev
 apt-get install libssh2-1
+apt-get install git
 
    (~)Comenzi de compilare si instalare a arhivei 
    
-wget arhivscan.000webhostapp.com/scanssh.zip	 
+git clone https://github.com/alexdanca341341/brute-force-ssh.git
 unzip scan.zip
 cd scan
 rm -rf *.o
