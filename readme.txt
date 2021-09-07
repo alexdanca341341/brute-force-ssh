@@ -29,8 +29,10 @@ pkg install make
 apt update
 apt install libssh
 apt install libssh2
-unzip scan.zip
-cd scan
+apt install git
+git clone https://github.com/alexdanca341341/brute-force-ssh.git
+unzip brute-force-ssh.zip
+cd brute-force-ssh
 rm -rf *.o
 chmod +x *
 gcc -o pscan2 pscan2.c
@@ -44,12 +46,13 @@ make
 apt-get update
 apt-get install libssh2-1-dev
 apt-get install libssh2-1
+apt-get install git
 
      (~)Orders for compiling and installing the archive
 	 
-wget arhivscan.000webhostapp.com/scanssh.zip	
-unzip scan.zip
-cd scan
+git clone https://github.com/alexdanca341341/brute-force-ssh.git
+unzip brute-force-ssh.zip
+cd brute-force-ssh
 rm -rf *.o
 chmod +x *
 gcc -o pscan2 pscan2.c
