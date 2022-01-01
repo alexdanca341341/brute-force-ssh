@@ -47,7 +47,8 @@ apt-get update
 apt-get install libssh2-1-dev
 apt-get install libssh2-1
 apt-get install git
-apt-get install make	 
+apt-get install make
+apt-get install gcc
 git clone https://github.com/alexdanca341341/brute-force-ssh.git
 cd brute-force-ssh
 rm -rf *.o
@@ -103,7 +104,8 @@ apt-get update
 apt-get install libssh2-1-dev
 apt-get install libssh2-1
 apt-get install git
-apt-get install make	 
+apt-get install make
+apt-get install gcc
 git clone https://github.com/alexdanca341341/brute-force-ssh.git
 cd brute-force-ssh
 rm -rf *.o
