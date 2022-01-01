@@ -41,14 +41,13 @@ rm -rf *.o
 make
      
 	 (~)The libssh2 installation command in Kali Linux
+	 (~)Orders for compiling and installing the archive
 	 
 apt-get update
 apt-get install libssh2-1-dev
 apt-get install libssh2-1
 apt-get install git
-
-     (~)Orders for compiling and installing the archive
-	 
+apt-get install make	 
 git clone https://github.com/alexdanca341341/brute-force-ssh.git
 cd brute-force-ssh
 rm -rf *.o
@@ -97,22 +96,20 @@ make
 
 
 
-   (~)Comanda de instalare libssh2 in Kali Linux
-
+         (~)The libssh2 installation command in Kali Linux
+	 (~)Orders for compiling and installing the archive
+	 
 apt-get update
 apt-get install libssh2-1-dev
 apt-get install libssh2-1
 apt-get install git
-
-   (~)Comenzi de compilare si instalare a arhivei 
-   
+apt-get install make	 
 git clone https://github.com/alexdanca341341/brute-force-ssh.git
-cd scan
+cd brute-force-ssh
 rm -rf *.o
 chmod +x *
 gcc -o pscan2 pscan2.c
 make
-
    
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
